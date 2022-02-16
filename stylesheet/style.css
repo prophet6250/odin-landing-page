@@ -46,3 +46,57 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #1f2937;	
+}
+
+.header .logo {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+.links a {
+	font-size: 18px;
+	color: white;
+}
+.main {
+	background-color: #1f2937;
+}
+.main .content .title {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+.main .content .text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.signup-button a {
+	color: white;
+	background-color: #3882f6;
+}
+
+.section-boxes {
+	background-color: white;
+}
+
+.section-boxes .title {
+	font-weight: bolder;
+	color: #1f2937;
+	font-size: 36px;
+}
+.section-boxes .boxes .box img {
+	border: #3882f6 5px solid;
+	border-radius: 5%;
+}
+
+.section-boxes .boxes .box p {
+	color: #1f2937;
+}
