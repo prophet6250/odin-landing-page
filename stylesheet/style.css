@@ -48,6 +48,7 @@ table {
 }
 a {
 	text-decoration: none;
+	color: white;
 }
 
 .header {
@@ -83,10 +84,6 @@ a {
 	background-color: #3882f6;
 }
 
-.section-boxes {
-	background-color: white;
-}
-
 .section-boxes .title {
 	font-weight: bolder;
 	color: #1f2937;
@@ -99,4 +96,33 @@ a {
 
 .section-boxes .boxes .box p {
 	color: #1f2937;
+}
+
+.section-quote {
+	background-color: #e5e7eb;
+}
+
+.section-quote .quote {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.section-quote .author {
+	font-weight: bolder;
+}
+
+.section-signup .content {
+	background-color: #3882f6;
+	color: #f9faf8;
+}
+
+.section-signup .content .right a {
+	border: white 3px solid;
+	border-radius: 5%;
+}
+
+.footer {
+	background-color: #1f2937;
+	color: #e5e7eb;
 }
