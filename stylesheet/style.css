@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	background-color: #1f2937;	
+}
+
+.header .logo {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+.links a {
+	font-size: 18px;
+	color: white;
+}
+.main {
+	background-color: #1f2937;
+}
+.main .content .title {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+.main .content .text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.signup-button a {
+	color: white;
+	background-color: #3882f6;
+}
+
+.section-boxes .title {
+	font-weight: bolder;
+	color: #1f2937;
+	font-size: 36px;
+}
+.section-boxes .boxes .box img {
+	border: #3882f6 5px solid;
+	border-radius: 5%;
+}
+
+.section-boxes .boxes .box p {
+	color: #1f2937;
+}
+
+.section-quote {
+	background-color: #e5e7eb;
+}
+
+.section-quote .quote {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.section-quote .author {
+	font-weight: bolder;
+}
+
+.section-signup .content {
+	background-color: #3882f6;
+	color: #f9faf8;
+}
+
+.section-signup .content .right a {
+	border: white 3px solid;
+	border-radius: 5%;
+}
+
+.footer {
+	background-color: #1f2937;
+	color: #e5e7eb;
+}
