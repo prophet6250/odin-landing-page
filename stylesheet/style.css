@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,141 +16,191 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	display: flex;
-	flex-direction: column;
-	line-height: 1;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* section 1 */
 .header {
-	padding: 30px 200px;
-	display: flex;
-	justify-content: space-between;
-	align-content: center;
-	background-color: #1f2937;	
+  padding: 30px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #1f2937;	
 }
 
 .header .logo {
-	font-size: 24px;
-	font-weight: bolder;
-	color: #f9faf8;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .links a {
-	font-size: 18px;
-	color: white;
+  font-size: 18px;
+  color: white;
 }
 
 .main {
-	background-color: #1f2937;
-	display: flex;
-	justify-content: space-between;
-	padding: 30px 200px 100px 200px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 200px 100px 200px;
 }
 
 .main .content {
-	display: flex;
-	flex-direction: column;
-	padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
 }
 .main .content .title {
-	font-size: 48px;
-	font-weight: bolder;
-	color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .main .content .text {
-	font-size: 18px;
-	padding: 20px 0px;
-	color: #e5e7eb;
-	text-overflow: clip;
+  font-size: 18px;
+  padding: 20px 0px;
+  color: #e5e7eb;
+  text-overflow: clip;
 }
 
 .signup-button {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 .signup-button a {
-	color: white;
-	background-color: #3882f6;
-	border-radius: 10%;
-	padding: 10px 20px;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 10%;
+  padding: 10px 20px;
 }
 
 /* section 2 */
 .section-boxes .title {
-	font-weight: bolder;
-	color: #1f2937;
-	font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+.section-boxes .boxes {
+  display: flex;
+  padding: 0px 250px;
+  justify-content: space-between;
+}
+
 .section-boxes .boxes .box img {
-	border: #3882f6 5px solid;
-	border-radius: 5%;
+  border: #3882f6 5px solid;
+  border-radius: 5%;
 }
 
 .section-boxes .boxes .box p {
-	color: #1f2937;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  text-align: center;
+  color: #1f2937;
 }
 
 /* section 3 */
 .section-quote {
-	background-color: #e5e7eb;
+  padding: 100px 300px;
+  background-color: #e5e7eb;
 }
 
 .section-quote .quote {
-	font-size: 36px;
-	font-weight: 300;
-	font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: start;
+  line-height: 2.5rem;
 }
 
 .section-quote .author {
-	font-weight: bolder;
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: large;
+  text-align: end;
+  padding-top: 30px;
+  padding-right: 50px;
+
 }
 
 /* section 4 */
+
 .section-signup .content {
-	background-color: #3882f6;
-	color: #f9faf8;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 1rem;
+  color: #f9faf8;
+  margin: 150px 200px;
+  padding: 50px 200px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-signup .content .left p:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section-signup .content .left p:nth-child(2) {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.section-signup .content .right {
+  align-self: center;
 }
 
 .section-signup .content .right a {
-	border: white 3px solid;
-	border-radius: 5%;
+  border: white 3px solid;
+  border-radius: 2em;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 /* section 5 */
 .footer {
-	background-color: #1f2937;
-	color: #e5e7eb;
+  padding: 40px 0px;
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
