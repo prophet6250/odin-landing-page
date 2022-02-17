@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	display: flex;
+	flex-direction: column;
 	line-height: 1;
 }
 ol, ul {
@@ -51,7 +53,12 @@ a {
 	color: white;
 }
 
+/* section 1 */
 .header {
+	padding: 30px 200px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
 	background-color: #1f2937;	
 }
 
@@ -65,8 +72,18 @@ a {
 	font-size: 18px;
 	color: white;
 }
+
 .main {
 	background-color: #1f2937;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 200px 100px 200px;
+}
+
+.main .content {
+	display: flex;
+	flex-direction: column;
+	padding-right: 50px;
 }
 .main .content .title {
 	font-size: 48px;
@@ -76,14 +93,22 @@ a {
 
 .main .content .text {
 	font-size: 18px;
+	padding: 20px 0px;
 	color: #e5e7eb;
+	text-overflow: clip;
 }
 
+.signup-button {
+	margin-top: 30px;
+}
 .signup-button a {
 	color: white;
 	background-color: #3882f6;
+	border-radius: 10%;
+	padding: 10px 20px;
 }
 
+/* section 2 */
 .section-boxes .title {
 	font-weight: bolder;
 	color: #1f2937;
@@ -98,6 +123,7 @@ a {
 	color: #1f2937;
 }
 
+/* section 3 */
 .section-quote {
 	background-color: #e5e7eb;
 }
@@ -112,6 +138,7 @@ a {
 	font-weight: bolder;
 }
 
+/* section 4 */
 .section-signup .content {
 	background-color: #3882f6;
 	color: #f9faf8;
@@ -122,6 +149,7 @@ a {
 	border-radius: 5%;
 }
 
+/* section 5 */
 .footer {
 	background-color: #1f2937;
 	color: #e5e7eb;
